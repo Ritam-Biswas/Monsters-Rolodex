@@ -1,0 +1,16 @@
+.card{
+    border: 1px solid black;
+    text-align: center;
+    background-color: #95dada;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.card img{
+    display: block;
+    margin: auto;
+}
+
+.card:hover{
+    transform: scale(1.05);
+}

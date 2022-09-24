@@ -1,0 +1,18 @@
+.card-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 2%;
+    padding: 2%;
+}
+
+@media (max-width:650px){
+    .card-container{
+        grid-template-columns: auto auto;
+    }
+}
+
+@media (max-width:450px){
+    .card-container{
+        grid-template-columns: auto;
+    }
+}
