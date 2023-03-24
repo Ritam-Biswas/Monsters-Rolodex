@@ -1,13 +1,8 @@
 .App{
-  background: linear-gradient(
-    to left,
-    rgba(7, 27, 82, 1) 0%,
-    rgba(0, 128, 128, 1) 100%
-  );
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-    padding-bottom: 10%;
+    padding: 10%;
 }
 
 .App h1{
@@ -19,14 +14,3 @@
   font-family: 'Bigelow Rules';
 }
 
-@media (max-width: 650px){
-  .App{
-    padding-bottom: 25%;
-  }
-}
-
-@media (max-width: 450px){
-  .App{
-    padding-bottom: 135%;
-  }
-}
