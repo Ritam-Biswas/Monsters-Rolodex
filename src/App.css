@@ -7,6 +7,7 @@
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
+    padding-bottom: 10%;
 }
 
 .App h1{
@@ -16,4 +17,16 @@
   font-size: 76px;
   color: #0ccac4;
   font-family: 'Bigelow Rules';
+}
+
+@media (max-width: 650px){
+  .App{
+    padding-bottom: 25%;
+  }
+}
+
+@media (max-width: 450px){
+  .App{
+    padding-bottom: 135%;
+  }
 }
